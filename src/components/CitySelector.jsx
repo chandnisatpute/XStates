@@ -113,7 +113,7 @@ return(
                 You selected <span className={styles.highlight}>{selectedCity}</span>,
                 <span className={styles.fade}>
                     {""}
-                    {selectedState},{selectedCountry}
+                    {selectedState}, {selectedCountry}
                 </span>
             </h2>
         )}

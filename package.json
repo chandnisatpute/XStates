@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
   "repository": {
@@ -19,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/chandnisatpute/XStates/issues"
   },
-  "homepage": ".",
+  "homepage": "./",
   "dependencies": {
     "axios": "^1.8.4",
     "process": "^0.11.10",
@@ -28,7 +27,8 @@
     "react-router-dom": "^6.30.0"
   },
   "devDependencies": {
-    "react-scripts": "^3.0.1"
+    "cypress": "^14.2.1",
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
