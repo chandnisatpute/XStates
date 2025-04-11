@@ -110,10 +110,8 @@ return(
 
         {selectedCity && (
             <h2 className={styles.result}>
-                You selected <span className={styles.highlight}>{selectedCity}</span>,
-                <span className={styles.fade}>
-                    {""}
-                    {selectedState}, {selectedCountry}
+                <span data-testid="selected-location" className={styles.highlight}>
+                You selected {selectedCity}, {selectedState}, {selectedCountry}
                 </span>
             </h2>
         )}
